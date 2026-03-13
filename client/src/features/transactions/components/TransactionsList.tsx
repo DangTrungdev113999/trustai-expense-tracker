@@ -1,4 +1,11 @@
-// Stub component — will be implemented by Kai
 export function TransactionsList() {
-  return null
+  return (
+    <div>
+      <h1>Transactions</h1>
+      <button type="button">Add Transaction</button>
+      <ul>
+        {/* Transaction items will be rendered here */}
+      </ul>
+    </div>
+  )
 }
